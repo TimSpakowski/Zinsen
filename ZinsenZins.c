@@ -19,7 +19,7 @@ int main () {
   
     if (Betrag >= 0 && Jahre >= 0) { 
   
-      for(i=0;i<=Jahre;i++){
+      for(i=0;i<Jahre;i++){
    
         Betrag = Betrag + Betrag * Zins;
     
