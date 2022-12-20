@@ -8,7 +8,7 @@ int main () {
   scanf("%d", &Jahre);
   
   int i = 0;
-  float Zins = 0.045
+  float Zins = 0.045;
     
   float Betrag;
   
@@ -27,7 +27,7 @@ int main () {
         Betrag = Betrag + n;
     
         printf("Der Betrag beträgt in Jahr %d %f €\n", Jahr, Betrag);
-        Jahr++
+        Jahr++;
     
       }
     }else{
